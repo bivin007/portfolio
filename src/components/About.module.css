@@ -1,0 +1,136 @@
+.about {
+  padding: 100px 6%;
+  background: #fff;
+}
+ 
+.inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+}
+ 
+.left {
+  flex-shrink: 0;
+}
+ 
+
+.imageBox {
+  position: relative;
+  width: 300px;
+}
+ 
+.img {
+  width: 300px;
+  height: 360px;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 24px;
+  display: block;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.1);
+}
+ 
+.floatCard {
+  position: absolute;
+  bottom: -20px;
+  right: -24px;
+  background: #fff;
+  border-radius: 16px;
+  padding: 14px 18px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+}
+ 
+.emoji { font-size: 1.6rem; }
+ 
+.cardTitle {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #111;
+  margin: 0;
+}
+ 
+.cardSub {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.78rem;
+  color: #6b7280;
+  margin: 0;
+}
+ 
+.right {
+  flex: 1;
+}
+ 
+.tag {
+  display: inline-block;
+  background: #dcfce7;
+  color: #15803d;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 5px 14px;
+  border-radius: 999px;
+  margin-bottom: 1.2rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+ 
+.heading {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  font-weight: 800;
+  color: #0f172a;
+  line-height: 1.2;
+  margin: 0 0 1.4rem;
+  letter-spacing: -0.5px;
+}
+ 
+.green { color: #22c55e; }
+ 
+.text {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1rem;
+  color: #6b7280;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+ 
+.stats {
+  display: flex;
+  gap: 2.5rem;
+  margin-top: 2.4rem;
+  padding-top: 2rem;
+  border-top: 1px solid #f3f4f6;
+}
+ 
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+ 
+.statValue {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  font-weight: 800;
+  color: #22c55e;
+}
+ 
+.statLabel {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.82rem;
+  color: #9ca3af;
+  font-weight: 500;
+}
+ 
+@media (max-width: 900px) {
+  .inner { flex-direction: column; gap: 4rem; text-align: center; }
+  .imageBox { margin: 0 auto; }
+  .floatCard { right: 0; }
+  .stats { justify-content: center; }
+}
+ 

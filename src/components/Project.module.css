@@ -1,0 +1,128 @@
+.projects {
+  padding: 100px 6%;
+  background: #fff;
+}
+ 
+.inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+ 
+.header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+ 
+.tag {
+  display: inline-block;
+  background: #dcfce7;
+  color: #15803d;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 5px 14px;
+  border-radius: 999px;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+ 
+.heading {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  font-weight: 800;
+  color: #0f172a;
+  margin: 0 0 0.8rem;
+  letter-spacing: -0.5px;
+}
+ 
+.green { color: #22c55e; }
+ 
+.sub {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1rem;
+  color: #6b7280;
+}
+ 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.8rem;
+}
+ 
+.card {
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid #f3f4f6;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  transition: transform 0.25s, box-shadow 0.25s;
+  background: #fff;
+}
+ 
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 48px rgba(0,0,0,0.1);
+}
+ 
+.cardTop {
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.projectIcon {
+  font-size: 2.8rem;
+}
+ 
+.cardBody {
+  padding: 1.6rem;
+}
+ 
+.projectTitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0 0 0.6rem;
+}
+ 
+.projectDesc {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.9rem;
+  color: #6b7280;
+  line-height: 1.6;
+  margin: 0 0 1.2rem;
+}
+ 
+.cardTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 1.4rem;
+}
+ 
+.tag2 {
+  background: #f0fdf4;
+  color: #15803d;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 999px;
+  border: 1px solid #bbf7d0;
+}
+ 
+.viewBtn {
+  display: inline-block;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #22c55e;
+  text-decoration: none;
+  transition: letter-spacing 0.2s;
+}
+ 
+.viewBtn:hover {
+  letter-spacing: 0.5px;
+}

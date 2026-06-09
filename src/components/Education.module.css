@@ -1,0 +1,163 @@
+.education {
+  padding: 100px 6%;
+  background: #fff;
+}
+ 
+.inner {
+  max-width: 860px;
+  margin: 0 auto;
+}
+ 
+.header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+ 
+.tag {
+  display: inline-block;
+  background: #dcfce7;
+  color: #15803d;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 5px 14px;
+  border-radius: 999px;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+ 
+.heading {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+  font-weight: 800;
+  color: #0f172a;
+  margin: 0 0 0.8rem;
+  letter-spacing: -0.5px;
+}
+ 
+.green { color: #22c55e; }
+ 
+.sub {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1rem;
+  color: #6b7280;
+}
+ 
+/* Timeline */
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+ 
+.item {
+  display: flex;
+  gap: 1.6rem;
+}
+ 
+.lineCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  padding-top: 6px;
+}
+ 
+.dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #22c55e;
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 3px #bbf7d0;
+  flex-shrink: 0;
+  z-index: 1;
+}
+ 
+.line {
+  width: 2px;
+  flex: 1;
+  background: linear-gradient(to bottom, #bbf7d0, #e5e7eb);
+  min-height: 40px;
+  margin: 6px 0;
+}
+ 
+.card {
+  background: #f9fafb;
+  border: 1px solid #f0fdf4;
+  border-radius: 20px;
+  padding: 1.8rem 2rem;
+  margin-bottom: 1.6rem;
+  flex: 1;
+  transition: box-shadow 0.25s, transform 0.25s;
+}
+ 
+.card:hover {
+  transform: translateX(4px);
+  box-shadow: 0 8px 32px rgba(34,197,94,0.1);
+  border-color: #bbf7d0;
+}
+ 
+.cardTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 0.8rem;
+  flex-wrap: wrap;
+}
+ 
+.degree {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0 0 4px;
+}
+ 
+.school {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin: 0;
+}
+ 
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+  flex-shrink: 0;
+}
+ 
+.year {
+  background: #dcfce7;
+  color: #15803d;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+ 
+.grade {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #22c55e;
+}
+ 
+.desc {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.92rem;
+  color: #6b7280;
+  line-height: 1.7;
+  margin: 0;
+}
+ 
+@media (max-width: 600px) {
+  .cardTop { flex-direction: column; }
+  .right { align-items: flex-start; }
+}
