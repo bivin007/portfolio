@@ -1,5 +1,5 @@
 import styles from "./About.module.css";
-import bivinImg from "../assets/bivin.jpg";
+import bivinImg from "../assets/bivin.JPG";
  
 export default function About() {
   const stats = [
