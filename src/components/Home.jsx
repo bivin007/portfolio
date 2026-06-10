@@ -1,5 +1,5 @@
 import styles from "./Home.module.css";
-import bivinImg from "../assets/bivin.jpg";
+import bivinImg from "../assets/bivin.JPG";
  
 export default function Home() {
   const scrollTo = (id) =>
